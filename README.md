@@ -89,10 +89,10 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
 <div align="center">
 
 ```
-🏠 Antonella - Asistente Inmobiliario AI
-   ├── Chatbot WhatsApp para gestión de propiedades
-   ├── Integración con CRM inmobiliario
-   └── Cualificación automática de leads
+🍔 Antonella - Asistente Gastronómico AI
+   ├── Chatbot WhatsApp para atención al cliente
+   ├── Gestión inteligente de quejas y sugerencias
+   └── Guía de menú y recomendaciones personalizadas
 
 🏢 Henrypole - Gestión Inmobiliaria
    ├── Automatización de procesos de alquiler
