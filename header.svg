@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="50%" style="stop-color:#a371f7"/>
+      <stop offset="100%" style="stop-color:#f778ba"/>
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#238636">
+        <animate attributeName="stop-color" values="#238636;#58a6ff;#a371f7;#238636" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#a371f7;#238636;#58a6ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bgGrad)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.1">
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="100" y1="0" x2="100" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="500" y1="0" x2="500" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="700" y1="0" x2="700" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Animated flow lines -->
+  <g filter="url(#glow)">
+    <!-- Flow line 1 -->
+    <path d="M50 100 Q150 60, 250 100 T450 100" fill="none" stroke="url(#flowGrad)" stroke-width="2" stroke-dasharray="10 5" opacity="0.6">
+      <animate attributeName="stroke-dashoffset" from="0" to="30" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <!-- Flow line 2 -->
+    <path d="M350 100 Q450 140, 550 100 T750 100" fill="none" stroke="url(#flowGrad)" stroke-width="2" stroke-dasharray="10 5" opacity="0.6">
+      <animate attributeName="stroke-dashoffset" from="0" to="30" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Workflow nodes -->
+  <g filter="url(#glow)">
+    <!-- Node 1: Trigger -->
+    <rect x="60" y="75" width="50" height="50" rx="8" fill="#21262d" stroke="#238636" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="85" cy="100" r="12" fill="none" stroke="#238636" stroke-width="2"/>
+    <polygon points="82,94 82,106 92,100" fill="#238636"/>
+    
+    <!-- Node 2: Process -->
+    <rect x="180" y="75" width="50" height="50" rx="8" fill="#21262d" stroke="#58a6ff" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </rect>
+    <g transform="translate(205, 100)">
+      <rect x="-10" y="-10" width="20" height="20" fill="none" stroke="#58a6ff" stroke-width="2" rx="2">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    
+    <!-- Node 3: AI/API -->
+    <rect x="300" y="75" width="50" height="50" rx="8" fill="#21262d" stroke="#a371f7" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </rect>
+    <g transform="translate(325, 100)">
+      <circle cx="0" cy="-8" r="4" fill="#a371f7">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-7" cy="6" r="4" fill="#a371f7">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+      <circle cx="7" cy="6" r="4" fill="#a371f7">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Title text -->
+  <text x="420" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="url(#accentGrad)">
+    srvautomatizaciones-dev
+  </text>
+  <text x="420" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#8b949e">
+    Automation Architect | n8n Expert | AI Integration
+  </text>
+  
+  <!-- Typing cursor effect -->
+  <rect x="654" y="105" width="2" height="18" fill="#58a6ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Decorative particles -->
+  <g opacity="0.4">
+    <circle cx="700" cy="40" r="2" fill="#58a6ff">
+      <animate attributeName="cy" values="40;35;40" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="60" r="1.5" fill="#a371f7">
+      <animate attributeName="cy" values="60;55;60" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="740" cy="45" r="1" fill="#238636">
+      <animate attributeName="cy" values="45;40;45" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="160" r="2" fill="#f778ba">
+      <animate attributeName="cy" values="160;155;160" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="150" r="1.5" fill="#58a6ff">
+      <animate attributeName="cy" values="150;145;150" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <rect x="0" y="196" width="800" height="4" fill="url(#accentGrad)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
