@@ -56,8 +56,12 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
 
 ### Lenguajes & Tools
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://javascript.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://gnu.org/software/bash/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
 
 </div>
 
@@ -85,20 +89,40 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
 <div align="center">
 
 ```
-📦 ADAI - Sistema de Escucha Ciudadana Inteligente
-   ├── Multi-canal: Web, Telegram, WhatsApp
-   ├── Clasificación AI de comunicaciones
-   └── PostgreSQL + Docker en VPS
+🏠 Antonella - Asistente Inmobiliario AI
+   ├── Chatbot WhatsApp para gestión de propiedades
+   ├── Integración con CRM inmobiliario
+   └── Cualificación automática de leads
 
-📦 Palfinger Crane Configurator
-   ├── AI Agent con Claude Sonnet
-   ├── State machine + anti-loop
-   └── Chat memory con PostgreSQL
+🏢 Henrypole - Gestión Inmobiliaria
+   ├── Automatización de procesos de alquiler
+   ├── Sincronización multi-plataforma
+   └── Notificaciones y seguimiento automatizado
 
-📦 VPS Client Deployment Package
-   ├── n8n + PostgreSQL + Portainer
-   ├── Evolution API + Traefik
-   └── Scripts templados reutilizables
+🏥 HealthCore - Plataforma Sanitaria
+   ├── Sistema integral de gestión clínica
+   ├── Integraciones con APIs sanitarias
+   └── Cumplimiento GDPR
+
+📄 Sistema de Facturación
+   ├── OCR y extracción automática de datos
+   ├── Integración con contabilidad
+   └── Procesamiento batch de documentos
+
+👁️ Asistente Oftalmología
+   ├── Calculadora IOL inteligente
+   ├── Chatbot de consultas especializadas
+   └── Gestión de citas automatizada
+
+🧲 MRI Safety - Seguridad en Resonancia
+   ├── Verificación de compatibilidad de implantes
+   ├── Base de datos de dispositivos médicos
+   └── Protocolos de seguridad automatizados
+
+🏥 Control de Acceso a Quirófanos
+   ├── Sistema de verificación de personal
+   ├── Registro automatizado de entradas/salidas
+   └── Integración con sistemas hospitalarios
 ```
 
 </div>
@@ -110,7 +134,19 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
 <div align="center">
   
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=srvautomatizaciones-dev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636&text_color=8b949e"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=srvautomatizaciones-dev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e"/>
+
+</div>
+
+### 💻 Lenguajes más utilizados
+
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-35%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-25%25-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-15%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-12%25-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-8%25-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-5%25-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 </div>
 
