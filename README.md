@@ -137,19 +137,6 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
 
 </div>
 
-### 💻 Lenguajes más utilizados
-
-<div align="center">
-
-![JavaScript](https://img.shields.io/badge/JavaScript-35%25-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-25%25-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-15%25-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-12%25-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-8%25-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-5%25-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-</div>
-
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=srvautomatizaciones-dev&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=238636&fire=f778ba&currStreakLabel=58a6ff" />
 </div>
