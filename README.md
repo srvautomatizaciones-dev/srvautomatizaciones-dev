@@ -84,17 +84,6 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
 
 <div align="center">
 
-<a href="#">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=srvautomatizaciones-dev&repo=n8n-templates&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636" />
-</a>
-<a href="#">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=srvautomatizaciones-dev&repo=docker-stack&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=238636" />
-</a>
-
-</div>
-
-### 🏗️ Sistemas Desarrollados
-
 ```
 📦 ADAI - Sistema de Escucha Ciudadana Inteligente
    ├── Multi-canal: Web, Telegram, WhatsApp
@@ -111,6 +100,8 @@ enfoque: Reducir fricción operativa y escalar negocios mediante automatización
    ├── Evolution API + Traefik
    └── Scripts templados reutilizables
 ```
+
+</div>
 
 ---
 
