@@ -26,6 +26,7 @@ specialization:
   - AI-powered Solutions with LLMs
   - Cloud Infrastructure (Docker, VPS)
   - MCP Server Design & Development
+  - AI Agents (Manus, Antigravity)
 focus: Reducing operational friction and scaling businesses through intelligent automation
 projects_completed: 28 projects across 7 sectors
 compliance: GDPR/RGPD for healthcare projects
@@ -48,7 +49,11 @@ compliance: GDPR/RGPD for healthcare projects
 [![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
 [![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai)
 [![Whisper](https://img.shields.io/badge/Whisper-74AA9C?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/research/whisper)
+
+### AI Agents & Protocols
 [![MCP](https://img.shields.io/badge/MCP_Servers-FF6B6B?style=for-the-badge&logo=serverless&logoColor=white)](https://modelcontextprotocol.io)
+[![Manus AI](https://img.shields.io/badge/Manus_AI-7C3AED?style=for-the-badge&logo=robot&logoColor=white)](https://manus.im)
+[![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://google.com)
 
 ### Infrastructure & DevOps
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
@@ -86,6 +91,7 @@ compliance: GDPR/RGPD for healthcare projects
 
 ### Document Processing
 [![OCR](https://img.shields.io/badge/OCR-FF6F00?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/vision)
+[![OpenAI Vision](https://img.shields.io/badge/OpenAI_Vision-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
 [![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)](https://pptr.dev)
 
 </div>
