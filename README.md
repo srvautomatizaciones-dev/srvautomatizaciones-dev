@@ -6,7 +6,7 @@
 <!-- Dynamic Typing SVG -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Turning+manual+processes+into+intelligent+workflows;End-to-end+automation+with+n8n+%26+AI;28+projects+across+7+industries;Building+the+future+of+business+automation" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Turning+manual+processes+into+intelligent+workflows;End-to-end+automation+with+n8n+%26+AI;30+projects+across+8+industries;Building+the+future+of+business+automation" alt="Typing SVG" />
   </a>
 </div>
 
@@ -28,7 +28,7 @@ specialization:
   - MCP Server Design & Development
   - AI Agents (Manus, Antigravity)
 focus: Reducing operational friction and scaling businesses through intelligent automation
-projects_completed: 28 projects across 7 sectors
+projects_completed: 30 projects across 8 sectors
 compliance: GDPR/RGPD for healthcare projects
 ```
 
@@ -128,6 +128,7 @@ compliance: GDPR/RGPD for healthcare projects
 | 🏠 **Real Estate / Rentals** | 6 | OTA sync, property management, guest bots | Full automation |
 | 📢 **Marketing / Lead Gen** | 4 | B2B scraping, data enrichment | Automated prospecting |
 | 🏭 **Industrial / Manufacturing** | 3 | Product configurators, AI assistants | 70% time reduction |
+| 🍔 **Gastronomy** | 3 | AI assistants, menu & schedule management | Enhanced customer service |
 | 🏛️ **Public Administration** | 1 | Citizen listening platform with AI | Multi-channel |
 
 </div>
@@ -320,13 +321,25 @@ compliance: GDPR/RGPD for healthcare projects
    └── PostgreSQL + Docker + OpenAI
 ```
 
-### 🍔 Gastronomy (1 Project)
+### 🍔 Gastronomy (3 Projects)
 ```
 🍔 Antonella - AI Gastronomy Assistant
    ├── WhatsApp customer service chatbot
    ├── Complaint management & suggestions
    ├── Menu guidance & recommendations
    └── OpenAI + Evolution API + n8n
+
+🐚 Shell Cafeteria - Menu Bot
+   ├── Interactive digital menu system
+   ├── WhatsApp chatbot for menu queries
+   ├── Daily specials & recommendations
+   └── n8n + OpenAI + WhatsApp Business API
+
+🕐 Shell Cafeteria - Schedule Manager
+   ├── Operating hours information system
+   ├── Automated schedule notifications
+   ├── Holiday & special hours updates
+   └── n8n + WhatsApp Business API + Calendar
 ```
 
 </div>
